@@ -4,7 +4,7 @@ Page({
     flag: false
   },
   request() {
-    var data = this.data;
+    var that = this;
     my.request({
       url: 'https://touchez.cn:8090/pyapi/openlock',
       dataType: 'json',
@@ -16,7 +16,7 @@ Page({
       },
       complete: function(res) {
         // my.alert({title: 'complete'});
-        this.setData({
+        that.setData({
           'flag': false,
           'message': '点击开锁'
         });
