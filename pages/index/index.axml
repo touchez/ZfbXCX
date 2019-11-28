@@ -1,3 +1,8 @@
-<view class="page">
-  <button size="default" type="primary" onTap="request">点击开锁</button>
+<view style="height:800px; background-color:#aaa">
+  <view class="page" style="height:200px;">
+ </view>
+<view class="page" style="margin-left:10%;margin-right:10%;">
+  <button  style="border-radius:25px;" size="default" type="primary" onTap="request" loading="{{flag}}" disabled="{{flag}}">{{message}}</button>
 </view>
+</view>
+ 
