@@ -1,0 +1,3 @@
+<view class="page">
+  <button size="default" type="primary" onTap="request">点击开锁</button>
+</view>
