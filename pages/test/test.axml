@@ -1,3 +1,4 @@
 <view class="container">
-  <text>开锁中</text>
+  <image mode="top" src="../../image/image1.gif"></image>
+  <text class="text1">开锁中。。。</text>
 </view>
